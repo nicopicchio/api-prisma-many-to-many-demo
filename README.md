@@ -11,7 +11,10 @@ Note: Although we need to create a new primary database, we can reuse a shadow d
 * Run npx prisma migrate reset to execute the existing migrations & data seed. Press y when it asks if you're sure.
 
 ## Instructions
-Your instruction will demo implementing a many to many relationship between Users and Channels, updating the seed file to add and connect some users and channels, and returning the related data from the `GET /channels` and `GET /users endpoints`.
+Your instructor will demo:
+* Implementing a many to many relationship between Users and Channels
+* Updating the seed file to add and connect some users and channels
+* Returning the related data from the `GET /channels` and `GET /users endpoints`.
 
 ## References
 * [Prisma Many to Many](https://www.prisma.io/docs/concepts/components/prisma-schema/relations/many-to-many-relations#relational-databases)
